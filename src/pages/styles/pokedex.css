@@ -1,0 +1,44 @@
+.pokedex_main__content {
+    text-align: center;
+}
+  
+  .pokedex_main__title {
+    position: relative;
+}
+
+.pokedex_main__logo {
+    position: absolute;
+    margin-top: -172px;
+    margin-bottom: 40px;
+    max-width: 676px;
+    padding: 0 2rem 0 2rem;
+    width: 80%;
+}
+
+.pokedex_main__welcome {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+.pokedex_main__trainer_name {
+    color: #FE1936;
+    font-weight: bold; 
+}
+
+@media (max-width: 860px) {
+    .pokedex_main__logo {
+        margin-top: -142px;
+        margin-bottom: 40px;    
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 630px) {
+    .pokedex_main__logo {
+        margin-top: -122px;
+        margin-bottom: 40px;    
+        max-width: 350px;
+    }
+}

@@ -1,0 +1,51 @@
+.header {
+    position: relative;
+}
+
+.header-big {
+    background-color: red;
+    height: 123px;
+    width: 100%;
+}
+
+.header-little {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+/* Para version de celular, ojo aqui */
+.circle-container {
+    position: absolute;
+    top: 84%;
+    right: 16%;
+    transform: translateY(-50%);
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-big {
+    background-color: black;
+    height: 117px;
+    width: 117px;
+}
+
+.circle-middle {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    z-index: 1;
+}
+
+.circle-little {
+    background-color: black;
+    height: 63px;
+    width: 63px;
+    z-index: 2;
+}

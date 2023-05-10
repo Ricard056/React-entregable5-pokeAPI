@@ -1,0 +1,62 @@
+.form-poke {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.form-poke__form {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-poke__form_input {
+    width: 100%;
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    height: 36px;
+}
+
+.form-poke__form-btn {
+    background-color: #D93F3F;
+    color: white;
+
+    font-weight: bold;
+    line-height: 2.1;
+    border-radius: 0 0.5em 0.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+}
+
+.form-poke__form-btn i {
+    font-size: 1rem;
+}
+
+.form-poke__select {
+    text-transform: capitalize;
+    display: block;
+    max-width: 393px;
+    height: 36px;
+}
+
+.app__searchSuggestions {
+    width: calc(100% - 12.8rem);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.app__searchSuggestionsShow {
+    color: rgba(124, 117, 117, 0.99);
+    background-color: rgba(255, 255, 255, 0.95) ;
+    width: 100%;
+    padding: 0.02em 1.5em;
+    font-size: 0.9em;
+    z-index: 100;
+    cursor: pointer;
+}

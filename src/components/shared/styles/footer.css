@@ -1,0 +1,56 @@
+.footer {
+    position: relative;
+    margin-top: auto;
+}
+
+.footer__big {
+    height: 90px;
+    width: 100%;
+    background-color: red;
+    max-height: calc(100vh - 60px); 
+    overflow: hidden;
+}
+
+.footer__little {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+
+/* MOVER CENTRO DE LA POKEBOLA */
+.footer__circle-cont {
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.footer__circle-cont__big,
+.footer__circle-cont__middle,
+.footer__circle-cont__little {
+    position: absolute;
+    border-radius: 50%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer__circle-cont__big {
+    background-color: black;
+    height: 117px;
+    width: 117px;
+}
+
+.footer__circle-cont__middle {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    z-index: 1;
+}
+
+.footer__circle-cont__little {
+    background-color: black;
+    height: 63px;
+    width: 63px;
+    z-index: 2;
+}

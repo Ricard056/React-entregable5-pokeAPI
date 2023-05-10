@@ -1,0 +1,19 @@
+.form-name__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em 1em 2em;
+
+}
+
+.form-name__user-input {
+    width: 100%;
+    max-width: 350px;
+    padding: 0.5em;    
+}
+
+.form-name__user-button {
+    color: white;
+    background-color: red;
+    padding: 0.5em;
+}
